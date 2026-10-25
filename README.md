@@ -14,6 +14,14 @@ text, images, best-quality video links, polls, quoted posts, and the **entire lo
 
 If this saves you time, you can [buy me a coffee](https://roastedrants.gumroad.com/l/coffee) ☕
 
+## Use it now (no install)
+
+- **Web reader:** https://x-reader-mcp.roastedrants.workers.dev  
+  Paste a post link, preview it, copy or download the Markdown.
+- **Claude / ChatGPT connector:** add `https://x-reader-mcp.roastedrants.workers.dev/mcp` as a custom connector (no sign-in needed), then paste any post link in chat.
+
+Want your own copy? Deploy it yourself below.
+
 ---
 
 ## Example output
@@ -78,7 +86,7 @@ claude mcp add --transport http x-reader https://x-reader-mcp.<your-subdomain>.w
 |---|---|---|
 | `read_x_post` | `url`: post URL (x.com, twitter.com, mobile, fxtwitter...) or numeric ID | Markdown of the post, and the full article if it's an X Article |
 
-Other endpoints: `GET /read?url=...` returns plain Markdown, `GET /` shows an info page.
+Other endpoints: `GET /` is the web reader, `GET /read?url=...` returns plain Markdown.
 
 ## Limits (honest list)
 
@@ -97,7 +105,7 @@ npm run typecheck
 ```
 
 Code map: `src/index.ts` (MCP over Streamable HTTP, stateless), `src/fxtwitter.ts` (URL parsing and fetch),
-`src/markdown.ts` (post and Draft.js article to Markdown).
+`src/markdown.ts` (post and Draft.js article to Markdown), `src/page.ts` (web reader page).
 
 ## Credits
 
