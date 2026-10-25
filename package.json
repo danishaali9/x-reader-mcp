@@ -1,0 +1,19 @@
+{
+  "name": "x-reader-mcp",
+  "version": "1.0.0",
+  "description": "Tiny MCP server that reads public X posts and full X Articles as Markdown, via the free FxTwitter API. Runs on Cloudflare Workers.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261019.1",
+    "typescript": "^5.6.0",
+    "wrangler": "^4.0.0"
+  },
+  "license": "MIT"
+}

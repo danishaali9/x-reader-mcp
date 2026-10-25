@@ -1,0 +1,308 @@
+{
+ "code": 200,
+ "message": "OK",
+ "tweet": {
+  "url": "https://x.com/roastedrants/status/2100000000000000001",
+  "id": "2100000000000000001",
+  "text": "https://x.com/i/article/2100000000000000002",
+  "author": {
+   "name": "roastedrants",
+   "screen_name": "roastedrants",
+   "followers": 1234
+  },
+  "replies": 5,
+  "retweets": 12,
+  "likes": 150,
+  "bookmarks": 1300,
+  "quotes": 2,
+  "views": 45678,
+  "created_timestamp": 1792595296,
+  "article": {
+   "id": "2100000000000000002",
+   "title": "I built a free MCP that lets Claude read X Articles",
+   "cover_media": {
+    "media_info": {
+     "original_img_url": "https://pbs.twimg.com/media/sample-cover.jpg"
+    }
+   },
+   "content": {
+    "blocks": [
+     {
+      "key": "a1",
+      "text": "I wanted Claude to read X Articles. Nothing free did it, so I built this.",
+      "type": "unstyled",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a2",
+      "text": "Why TweetSave was not enough",
+      "type": "header-one",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a3",
+      "text": "It only returned the article link, never the body.",
+      "type": "unstyled",
+      "data": {},
+      "inlineStyleRanges": [
+       {
+        "offset": 21,
+        "length": 12,
+        "style": "Bold"
+       }
+      ],
+      "entityRanges": []
+     },
+     {
+      "key": "a4",
+      "text": " ",
+      "type": "atomic",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": [
+       {
+        "offset": 0,
+        "length": 1,
+        "key": 0
+       }
+      ]
+     },
+     {
+      "key": "a5",
+      "text": "What it returns",
+      "type": "header-one",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a6",
+      "text": "Full article body",
+      "type": "unordered-list-item",
+      "data": {},
+      "inlineStyleRanges": [
+       {
+        "offset": 0,
+        "length": 4,
+        "style": "Italic"
+       }
+      ],
+      "entityRanges": []
+     },
+     {
+      "key": "a7",
+      "text": "Images and best-quality video links",
+      "type": "unordered-list-item",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a8",
+      "text": "Deploy it on Cloudflare",
+      "type": "ordered-list-item",
+      "data": {},
+      "inlineStyleRanges": [
+       {
+        "offset": 13,
+        "length": 10,
+        "style": "Bold"
+       }
+      ],
+      "entityRanges": [
+       {
+        "offset": 13,
+        "length": 10,
+        "key": 1
+       }
+      ]
+     },
+     {
+      "key": "a9",
+      "text": "Add the connector in Claude",
+      "type": "ordered-list-item",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a10",
+      "text": "Paste any post link",
+      "type": "ordered-list-item",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     },
+     {
+      "key": "a11",
+      "text": "\"Ship small, ship often.\"\n\nThen ship again.",
+      "type": "blockquote",
+      "data": {},
+      "inlineStyleRanges": [
+       {
+        "offset": 0,
+        "length": 44,
+        "style": "Bold"
+       },
+       {
+        "offset": 0,
+        "length": 44,
+        "style": "Italic"
+       }
+      ],
+      "entityRanges": []
+     },
+     {
+      "key": "a12",
+      "text": " ",
+      "type": "atomic",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": [
+       {
+        "offset": 0,
+        "length": 1,
+        "key": 2
+       }
+      ]
+     },
+     {
+      "key": "a13",
+      "text": " ",
+      "type": "atomic",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": [
+       {
+        "offset": 0,
+        "length": 1,
+        "key": 3
+       }
+      ]
+     },
+     {
+      "key": "a15",
+      "text": " ",
+      "type": "atomic",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": [
+       {
+        "offset": 0,
+        "length": 1,
+        "key": 4
+       }
+      ]
+     },
+     {
+      "key": "a14",
+      "text": "Unicode check: café… done → next 💜",
+      "type": "unstyled",
+      "data": {},
+      "inlineStyleRanges": [],
+      "entityRanges": []
+     }
+    ],
+    "entityMap": [
+     {
+      "key": "0",
+      "value": {
+       "type": "MEDIA",
+       "mutability": "Immutable",
+       "data": {
+        "mediaItems": [
+         {
+          "mediaId": "900000000000000001",
+          "mediaCategory": "DraftTweetImage"
+         }
+        ]
+       }
+      }
+     },
+     {
+      "key": "1",
+      "value": {
+       "type": "LINK",
+       "mutability": "Mutable",
+       "data": {
+        "url": "https://workers.cloudflare.com"
+       }
+      }
+     },
+     {
+      "key": "2",
+      "value": {
+       "type": "MARKDOWN",
+       "mutability": "Mutable",
+       "data": {
+        "markdown": "```bash\nclaude mcp add --transport http x-reader https://example.workers.dev/mcp\n```"
+       }
+      }
+     },
+     {
+      "key": "3",
+      "value": {
+       "type": "DIVIDER",
+       "mutability": "Immutable",
+       "data": {}
+      }
+     },
+     {
+      "key": "4",
+      "value": {
+       "type": "MEDIA",
+       "mutability": "Immutable",
+       "data": {
+        "mediaItems": [
+         {
+          "mediaId": "900000000000000002",
+          "mediaCategory": "AmplifyVideo"
+         }
+        ]
+       }
+      }
+     }
+    ]
+   },
+   "media_entities": [
+    {
+     "media_id": "900000000000000001",
+     "media_info": {
+      "__typename": "ApiImage",
+      "original_img_url": "https://pbs.twimg.com/media/sample-image.jpg"
+     }
+    },
+    {
+     "media_id": "900000000000000002",
+     "media_info": {
+      "__typename": "ApiVideo",
+      "duration_millis": 7600,
+      "preview_image": {
+       "original_img_url": "https://pbs.twimg.com/sample-thumb.jpg"
+      },
+      "variants": [
+       {
+        "content_type": "video/mp4",
+        "bit_rate": 256000,
+        "url": "https://video.twimg.com/sample/432x270.mp4"
+       },
+       {
+        "content_type": "application/x-mpegURL",
+        "url": "https://video.twimg.com/sample/pl.m3u8"
+       },
+       {
+        "content_type": "video/mp4",
+        "bit_rate": 10368000,
+        "url": "https://video.twimg.com/sample/1600x1000.mp4"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
