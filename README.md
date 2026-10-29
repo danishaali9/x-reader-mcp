@@ -4,6 +4,8 @@ Let Claude (or ChatGPT, Cursor, any MCP client) read **public X posts and full X
 Paste a post link in chat and the AI gets clean Markdown: title, author, date, engagement,
 text, images, best-quality video links, polls, quoted posts, and the **entire long-form article body**.
 
+**Connector URL:** `https://x-reader-mcp.roastedrants.workers.dev/mcp` (add it as a custom connector, no sign-in needed)
+
 - Free: uses the public [FxTwitter](https://github.com/FxEmbed/FxEmbed) API, no X API key
 - Tiny: zero runtime dependencies, about 17 KB, runs on Cloudflare Workers' free plan
 - Read-only: it only reads public posts
