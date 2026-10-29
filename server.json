@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.danishaali9/x-reader-mcp",
+  "description": "Read public X posts and full X Articles as clean Markdown. Free, no X API key.",
+  "repository": {
+    "url": "https://github.com/danishaali9/x-reader-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://x-reader-mcp.roastedrants.workers.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x-reader-mcp.roastedrants.workers.dev/mcp"
+    }
+  ]
+}
